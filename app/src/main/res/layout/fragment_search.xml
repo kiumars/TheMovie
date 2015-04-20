@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.kian.themovie.ui.customviews.ClearableEditText
+        android:id="@+id/tv_search_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:hint="Search"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <ListView
+        android:id="@+id/lv_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
