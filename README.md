@@ -1,3 +1,3 @@
 # TheMovie
 
-A simple app for searching for movies and demonstrates using Dagger, Picasso, Retrofit in a simple project
+This Android app lets you to search for movies and demonstrates simple usage of Dagger, Otto, Retrofit, Picasso and RxJava libraries and tools. http://kiumars.github.io/TheMovie 
